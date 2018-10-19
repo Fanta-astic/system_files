@@ -2,8 +2,6 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-# use vi bindings
-set -o vi
 
 #ALIASES THAT I USE
 alias up='cd ..'
