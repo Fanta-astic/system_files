@@ -13,6 +13,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'fenetikm/falcon'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
+Plugin 'avakhov/vim-yaml'
 " add all your plugins here (note older versions of Vundle
 " used Bundle instead of Plugin)
 
@@ -29,6 +30,12 @@ nnoremap <C-K> <C-W><C-J>
 nnoremap <C-I> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-J> <C-W><C-H>
+
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
 
 " Enable folding
 set foldmethod=indent
